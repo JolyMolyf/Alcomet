@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/8.0.92" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+
+      <TextField fx:id="mass" layoutX="20"                  layoutY="150" prefHeight="35.0" prefWidth="500.0" text="kg" />
+      <RadioButton fx:id="male" layoutX="160"               layoutY="230" mnemonicParsing="false" text="male" />
+      <RadioButton fx:id="female" layoutX="340"             layoutY="230" mnemonicParsing="false" text="female" />
+      <Button fx:id="saver" layoutX="200"                   layoutY="340" mnemonicParsing="false" onAction="#counter" prefHeight="40" prefWidth="150" text="Save"  />
+      <Label text="Enter your personal Data" layoutX="170"  layoutY="10" prefHeight="35.0"  prefWidth="200"/>
+      <Label text="Enter your mass:" layoutX="20"           layoutY="125" prefHeight="25.0"  prefWidth="150"/>
+      <Label text="Select your gender:" layoutX="18"        layoutY="210" prefWidth="150" prefHeight="25.0" />
+   </children>
+</AnchorPane>
