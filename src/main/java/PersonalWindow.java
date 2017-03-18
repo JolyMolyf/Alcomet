@@ -14,7 +14,8 @@ public class PersonalWindow {
         FXMLLoader loader = new FXMLLoader();
         Parent load = (Parent) loader.load(getClass().getResource("personal.fxml"));
         Stage qqq = new Stage();
-        qqq.setTitle("Window 2");
+        qqq.setTitle("Window 2014");
+        System.out.print("fdfgdf");
         Scene scene = new Scene(load);
         qqq.setScene(scene);
         qqq.showAndWait();
